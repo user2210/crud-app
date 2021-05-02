@@ -1,0 +1,66 @@
+.post {
+    background: white;
+    margin: 16px 0;
+    padding: 24px;
+    display: block;
+    color: inherit;
+    border-bottom: 1px solid #cccccc;
+}
+
+.post:hover .post-title {
+    text-decoration: underline;
+}
+
+.post-title {
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.post .comments {
+    margin: 24px;
+}
+
+.post .comment {
+    width: 95%;
+    margin: 12px auto;
+    padding: 12px 0;
+    border-bottom: 1px solid #777777;
+}
+
+.post .comment-email {
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.post .comment-form {
+    width: 95%;
+    margin: 12px auto;
+}
+
+.post .comment-form input, .post .comment-form textarea {
+    border: 1px solid #777777;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.post .comment-form textarea {
+    width: calc(100% - 10px);
+}
+
+.post .comment-form .fields {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+.post .comment-form .fields > input {
+    flex: 1;
+}
